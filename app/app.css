@@ -1,0 +1,40 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Button.button {
+  background-color: #2e4374;
+  color: #e5c3a6;
+  width: 80%;
+  height: 14%;
+  font-size: 30px;
+  margin: 4%;
+}
+
+.header {
+  background-color: #2e4374;
+  color: #e5c3a6;
+  margin: 0, 0, 50, 0;
+  height: 20%;
+}
+
+.header-label {
+  font-size: 44;
+  color: #e5c3a6;
+  vertical-align: center;
+  padding-top: 50%;
+  padding-left: 55%;
+}
+.main-page {
+  background-color: #7c81ad;
+  color: rgba(229, 195, 166, 0.93);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

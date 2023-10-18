@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="skills-page">
+    <StackLayout>
+        <StackLayout class="header">
+            <Label text="Skills" class="header-label"></Label>
+        </StackLayout>
+        <StackLayout class="button-container">
+            <Button class="button" text="skills"></Button>
+        </StackLayout>
+    </StackLayout>
+</Page>

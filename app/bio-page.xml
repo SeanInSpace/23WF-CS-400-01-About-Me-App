@@ -4,9 +4,7 @@
             <Label text="Bio" class="header-label"></Label>
         </StackLayout>
         <StackLayout class="button-container">
-            <Button class="button" text="Bio"></Button>
-            <Button class="button" text="Skills"></Button>
-            <Button class="button" text="Contact"></Button>
+            <Button class="button" text="All about me"></Button>
         </StackLayout>
     </StackLayout>
 </Page>

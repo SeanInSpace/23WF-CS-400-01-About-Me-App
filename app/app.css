@@ -5,6 +5,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.main-page {
+  background-color: #7c81ad;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 Button.button {
   background-color: #2e4374;
   color: #e5c3a6;
@@ -27,14 +37,4 @@ Button.button {
   vertical-align: center;
   padding-top: 50%;
   padding-left: 55%;
-}
-.main-page {
-  background-color: #7c81ad;
-  color: rgba(229, 195, 166, 0.93);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
 }

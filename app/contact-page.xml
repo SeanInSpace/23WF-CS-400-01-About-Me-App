@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="contact">
+    <StackLayout>
+        <StackLayout class="header">
+            <Label text="Contact" class="header-label"></Label>
+        </StackLayout>
+        <StackLayout class="button-container">
+            <Button class="button" text="contact me"></Button>
+        </StackLayout>
+    </StackLayout>
+</Page>
